@@ -1,19 +1,49 @@
+*:focus {
+    outline: none;
+}
+
 html,
 body {
     height: 100%;
-    background-color: #000;
 }
 
-/*#background {
-    background: url(../Images/car.jpg) center center no-repeat fixed;
-    height: 60%;
+#welcome {
+    background: url("../Images/cover.jpg") center center no-repeat;
+}
+
+#welcome img {
     background-size: cover;
-}*/
-
-#background {
-    padding: 5rem 5rem;
-    background-color: antiquewhite;
 }
 
-#cmc {
-    padding-right: -2rem;
+#navbar {
+    padding-top: 0;
+
+}
+
+#navbar a {
+    padding-right: 2.4rem;
+}
+
+a:hover {
+    backgroung-color: rgb(154, 202, 54);
+}
+
+.cmc-button {
+    border-radius: 1.3rem;
+    background-color: rgb(154, 202, 54);
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "Open Sans", serif;
+    border: solid;
+    border-width: thin;
+}
+
+.cmc-button:hover {
+    background-color: white;
+    color: rgb(154, 202, 54);
+}
